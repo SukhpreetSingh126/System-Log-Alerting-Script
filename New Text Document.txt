@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Linux Project</title>
+
+    <style>
+        body, h1, h2, p, ul {
+            margin: 0;
+            padding: 0;
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+            box-sizing: border-box;
+        }
+        body {
+            background-color: #f4f7f6;
+            color: #333;
+        }
+        .navbar {
+            background-color: #ffffff;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+            padding: 1rem 2rem;
+        }
+        .navbar .container {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .navbar-brand {
+            font-size: 1.5rem;
+            font-weight: bold;
+            color: #2a62ff;
+            text-decoration: none;
+        }
+        .navbar-nav {
+            list-style: none;
+            display: flex;
+        }
+        .nav-item {
+            margin-left: 1.5rem;
+        }
+        .nav-link {
+            text-decoration: none;
+            color: #555;
+            font-weight: 500;
+        }
+        .nav-link:hover {
+            color: #2a62ff;
+        }
+        .hero {
+            background-color: #2a62ff;
+            color: white;
+            text-align: center;
+            padding: 4rem 2rem;
+            margin-top: 2rem;
+            border-radius: 8px;
+            margin-left: 2rem;
+            margin-right: 2rem;
+        }
+        .hero h1 {
+            font-size: 2.5rem;
+            margin-bottom: 0.5rem;
+        }
+        .hero p {
+            font-size: 1.2rem;
+            opacity: 0.9;
+        }
+        .content {
+            padding: 2rem;
+            max-width: 900px;
+            margin: 2rem auto;
+            background-color: #ffffff;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+        .content h2 {
+            font-size: 2rem;
+            color: #333;
+            margin-bottom: 1rem;
+            border-bottom: 2px solid #f0f0f0;
+            padding-bottom: 0.5rem;
+        }
+        .content p {
+            font-size: 1.1rem;
+            line-height: 1.6;
+            margin-bottom: 1rem;
+        }
+    </style>
+</head>
+<body>
+    <nav class="navbar">
+        <div class="container">
+            <a href="#" class="navbar-brand">Linux Project</a>
+            <ul class="navbar-nav">
+                <li class="nav-item"><a href="#" class="nav-link">Home</a></li>
+                <li class="nav-item"><a href="#" class="nav-link">About</a></li>
+                <li class="nav-item"><a href="#" class="nav-link">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+    <header class="hero">
+        <h1>Static Website Hosted on Linux!</h1>
+        <p>This project demonstrates hosting a site with Apache2.</p>
+    </header>
+    <main class="content">
+        <h2>Project Overview</h2>
+        <p>
+            This project involves setting up an Apache web server on a Linux operating system. 
+            The goal is to serve static HTML and CSS files, like this very page.
+        </p>
+    </main>
+</body>
+</html>
